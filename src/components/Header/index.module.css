@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #ddd;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.menu{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    background: #1482c2;
+    color: white;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 10px;
+    position: relative;
+    top: 2px;
+}

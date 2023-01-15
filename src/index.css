@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pagination{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pagination nav{
+  display: inline-block;
+}
+.searchArea{
+  width: 300px;
+  border: 0;
+  height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.postBox{
+  display: block;
+}
+.postBoxItem{
+  display: flex;
+  background-color: #ededed;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+.postBoxImg{
+  width: 150px;
+}
+.postBoxImg img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+.postBoxText{
+  padding-left: 15px;
+}
+
+.logo a{
+  display: block;
+}
+
+.logo img{
+  width: 150px;
+  display: block;
+}

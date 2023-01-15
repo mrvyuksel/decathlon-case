@@ -1,0 +1,42 @@
+.profilePic{
+    width: 100%;
+    display: block;
+}
+.profilePic img{
+    width: 100%;
+    display: block;
+}
+.profileDetail{
+    display: block;
+    background-color: #ededed;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+.profileDetailInfo{
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+}
+.profileDetailInfo div{
+    margin-bottom: 15px;
+}
+.profileDetailInfo div span{
+    display: inline-block;
+    width: 60px;
+    position: relative;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.profileDetailInfo div span::after{
+    content: ":";
+    position: absolute;
+    right: 0;
+}
+.profileDetailInfo .name{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}

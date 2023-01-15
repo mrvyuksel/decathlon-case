@@ -1,0 +1,39 @@
+.profileBox{
+    display: block;
+}
+.profileBoxItem{
+    background-color: #ededed;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.profileBoxImg{
+    width: 150px;
+}
+.profileBoxImg img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.profilePic{
+    float: left;
+}
+.profileBoxText{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.profileList{
+    text-decoration: none;
+    color: black;
+}
+.profileImg{
+    display: block;
+}
+.profileImg img{
+    display: block;
+    width: 100%;
+}

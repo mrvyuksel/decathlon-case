@@ -1,0 +1,65 @@
+.postBox{
+    display: block;
+}
+.postBoxItem{
+    display: block;
+    background-color: #ededed;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+.postBoxImg{
+    width: 50%;
+    display: block;
+}
+.postBoxImg img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.postBoxText{
+    padding-left: 15px;
+}
+.profileInfo {
+    display: block;
+    margin-bottom: 15px;
+}
+.profileInfo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.profileInfoText {
+    display: inline-block;
+    margin-left: 15px;
+}
+.profileInfoImg {
+    display: inline-block;
+}
+.profileInfo img{
+    border-radius: 25px;
+    width: 50px;
+}
+
+.postContent{
+    display: flex;
+}
+.postContent p{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.postTags span{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: white;
+}
