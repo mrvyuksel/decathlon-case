@@ -1,3 +1,16 @@
+# Proje Bilgileri
+Proje için nodejs v19.4.0 veriyonunda çalıştırabilirsiniz.
+Proje 3 sayfadan oluşmaktadır.
+Anasayfa Post sayfası --> Postların listelendiği ve profil bilgierinin bulunduğu sayfadır.
+Anasayfa üzerinden profil bağlantısı ile profil detayına ulaşabilirsiniz.
+Users sayfası --->  Headerda bulunan Users menüsü ile tüm profillere ulaşabilirsiniz.
+Users profile detay ---> Herhangi bir profile gidildiğinde bu sayfa çalışır.
+
+## Search alanı
+Post sayfasında prost text içeriğine göre arama yapmakta ve listelemektedir.
+Users sayfasında profil firstName e göre arama yapmakta ve listelemektedir.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
